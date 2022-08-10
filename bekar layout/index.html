@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bekar Layout</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+    
+    <style>
+        
+        
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            font-family: 'Mingzat', sans-serif;
+            /* background-color: aquamarine; */
+           
+           
+        }
+        .con img{
+            width: 100%;
+            margin-top: 12px;
+            margin-left: 20px;
+            padding: 13px 195px;
+        }
+        .con{
+            
+            padding: 6px 60px;
+            margin: 12px 60px;
+            display: flex;
+            justify-content: space-between;
+          
+         
+
+        }
+        .navigation li{
+            display: inline-block;
+            padding: 6px 14px;
+            margin: 12px 24px;
+            font-size: 25px;
+            
+               
+        }
+        .ban{
+            width: 100%;
+            background-image: url(./bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .colom{
+            width: 50%;
+            font-size: 40px;
+            padding: 10px 77px;
+            margin: 20px 142px;
+
+
+
+        }
+        .btn{ 
+            font-size: 20px;
+            padding: 12px 35px;
+            border-radius: 30px;
+            outline-color: gray;
+            
+
+        }
+        .botton{ 
+            margin: 0px 40px;
+            font-size: 22px;
+            padding: 6px 12px;
+            border-radius: 30px;
+           outline-color: gray;
+        }
+       .collom {
+       
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+          
+            
+        }
+      .collom  p{
+        font-size: 35px;
+        width: 70%;
+        padding: 0px 31px;
+         margin: 40px 53px;
+        
+     
+        
+      }
+      .collom  h2{
+        font-size:36px;
+        width: 35%;
+        padding: 0px 31px;
+         margin: 40px 53px;
+        
+     
+        
+      }
+      .but{
+        margin: 0px 90px;
+        font-size: 20px;
+        padding: 12px 35px;
+        border-radius: 30px;
+        outline-color: gray;
+      }
+      .title{
+        font-size: 25px;
+         padding: 6px 10px;
+         margin: 20px 50px;
+         text-align: center;
+
+      }
+      .title p{
+         margin: 10px 70px 70px; 
+         padding:20px 40px ;
+        font-size: 20px;
+        
+      }
+      .raw{ 
+        width: 100%;   
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+       
+       
+
+      }
+      .boxone{
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(230, 242, 250);
+       text-align: center;
+       color: black;
+       font-size: 25px;
+       border-radius: 20px;
+       
+      }
+      .boxone h4{
+
+        margin-top: 100px;
+      }
+      .boxtwo{
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(230, 242, 250);
+        text-align: center;
+        font-size: 25px;
+        border-radius: 20px;
+      }
+      .boxtwo h4{
+        margin-top: 100px;
+
+    }
+      .boxthree{
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(230, 242, 250);
+        text-align: center;
+        font-size: 25px;
+        border-radius: 20px;
+      }
+      .boxthree h4{
+        margin-top: 100px;
+
+    }
+      .boxfour{
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(230, 242, 250);
+        text-align: center;
+        font-size: 25px;
+        border-radius: 20px;
+      }
+
+      .boxfour h4{
+        margin-top: 100px;
+
+    }
+     
+      .titl{
+        font-size: 25px;
+         padding: 6px 10px;
+         margin: 20px 50px;
+         text-align: center;
+         
+
+      }
+      .titl p{
+       
+         margin: 10px 70px 70px; 
+         padding:20px 40px ;
+        font-size: 20px;
+        
+      }
+      .images{
+        background-color: #e7e7e7;
+        display: flex;
+        justify-content: space-evenly;
+       
+        
+       
+      }
+      .images img{
+        width: 700px;
+        height: auto;
+        align-items: center;
+        margin-top: 30px;
+        border-radius: 20px;
+      }
+     
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="con">
+        <div class="logo">
+            <img src="./bekar.png" alt="">
+        </div>
+        <div class="nav">
+            <ul class="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Portfolio</li>
+                <li>News</li>
+                <button class="botton">Contact</button>
+            </ul>
+        </div>
+     </div>
+    </header>
+    <div class="ban">
+        <div class="colom">
+      <h1>Building digital produts, brands  experience.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pellentesque mi, volutpat sagittis in eu erat.</p>
+      <button class="btn">Get Started</button>
+    </div>
+    </div>
+    
+    <div class="collom">
+        <img src="./banner.jpg" alt="">
+        
+        <div class="text">
+            <h2>We Are Experts In Our Field.</h2>
+            <p>My digital company of professionals has been developing products for 15 years
+                
+                
+            Ultrices sagittis feugiat pulvinar faucibus neque pretium mentum. Convallis egestas rhoncus iaculis laoreet feugiat orci amet turpis sagittis.Ultrices sagittis feugiat pulvinar faucibus neque pretium elementum. Convallis egestas rhoncus iaculis laoreet feugiat orci amet turpis sagittis.</p>
+            
+         
+                <button class="but">Download CV</button>
+          
+        </div>
+    </div>
+    <div class="title">
+        <h1><b>My Awesome Services</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+    </div>
+    <div class="raw"> 
+        <div class="boxone">
+            <h4> <i class="fa-regular fa-grid-2-plus"></i>UI/UX Design </h4>
+        </div>
+        <div class="boxtwo">
+            <h4>Graphic Design</h4>
+        </div>
+        <div class="boxthree">
+            <h4>Product Design</h4>
+        </div>
+        <div class="boxfour">
+            <h4> Brand Identity</h4>
+        </div>
+    </div>
+    <div class="titl">
+        <h1><b> Selected Projects</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+    </div>
+    <div class="images">
+        <img src="./1-142.jpg" alt="">
+        <img src="./5dc47d8407dc960b35834043.jpg" width="" alt="">
+        
+    </div>
+    <div class="images">
+        
+        <img src="./braden-jarvis-aLU9c5NuBTs-unsplash.jpg" alt="">
+        <img src="./Casino-Sochi-Photo-Credit-Neil-Stoddart.jpg" alt="">
+    
+    </div>
+    
+    <div class="images">
+       
+        <img src="./DMZ_0055-Panorama-Panorama4.jpg" alt="">
+        <img src="./pexels-christian-heitz-842711 (1).jpg" alt=""> 
+    </div>
+    <div>
+       
+        
+ 
+ 
+<i class="fa-solid fa-grid-2-plus"></i>
+      
+    </div>
+
+    
+</body>
+</html>
